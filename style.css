@@ -1,0 +1,78 @@
+ body
+ {
+ 	background-image: url('./imagen/fondo1.jpg');
+ }
+ #container, header, nav, aside, section, footer, #login2 
+ {
+   border-radius: 10px;
+ }
+ #container 
+ 
+{
+	width: 90%;
+	height: 1%;
+	margin: auto;
+}
+
+header
+{
+
+	background: #2E9AFE;
+	margin: 0px;
+}
+
+header h1
+{
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+}
+
+nav 
+{
+	height: 20px;
+	background: green;
+	margin-bottom: 10px;
+	
+}
+
+aside {
+	height: 200px;
+	width: 20%;
+	float: left;
+	background: #7ac3ff;
+	border-radius: 10px;
+	
+}
+
+section {
+	height: 200px;
+	width: 80%;
+	float: left;
+	background: #fff;
+	margin-bottom: 10px;
+
+	
+}
+
+#login {
+	width: 100%;
+	border-radius: 10px;
+}
+
+
+
+
+footer {
+	height: 20px;
+	clear: both;
+	background: blue;
+	
+}
+#login2{
+	background: green;
+	width: 60%;
+	margin: 10px auto;
+	padding: 10px;
+
+}
